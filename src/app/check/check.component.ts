@@ -15,5 +15,5 @@ export class CheckComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+ 
 }

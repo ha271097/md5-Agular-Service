@@ -1,0 +1,10 @@
+<p>raiting works!</p>
+<div class ="rating-bar">
+<div class="rating-unit"  [class.active]="item.active" *ngFor="let item of curlist; index as i" 
+(mouseenter) ="mouseHover(i)"
+(click) ="mouseClick(i)" >
+    <div>{{item.value}}</div>
+    
+</div>
+</div>
+<div>{{cur}}</div>

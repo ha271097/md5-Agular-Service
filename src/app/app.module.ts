@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 import { CheckComponent } from './check/check.component';
+import { RaitingComponent } from './raiting/raiting.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CheckComponent,
+    RaitingComponent,
   ],
   imports: [
     BrowserModule,
